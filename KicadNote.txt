@@ -1,0 +1,18 @@
+đường dẫn hotkey: C:\Users\KHOA\AppData\Roaming\kicad\6.0
+
+thay đổi độ rộng giữa 2 label khi dùng insert: Preferences -> Schematic Editor -> Editing Options -> Repeated Items -> Pitch of repeated pins
+
+** Đưa trước hình ảnh 3D, file BOM báo giá, link mua linh kiện
+** Check sơ đồ nối dây các khối
+&& check các bộ bus kết nối(tên bộ truyền thông)
+&& check input và output hierarchical
+** check tên nguồn 
+** check test point
+** check footprint, check khớp footprint
+** check link BOM
+** có một lớp đồng GND không phủ gần rìa board để kẹp debug
+
+số via đặt không giới hạn với signal thường
+via không đặt ngay pad có thể không cắt dây giữa pad với via (sửa mạch_), pad đồng nhỏ, độ bám dính ít
+cuộn dây không phủ ground ngay dưới 
+đường dây cho cuộn dây không được phủ quá to
