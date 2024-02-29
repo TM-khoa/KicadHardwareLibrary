@@ -5,7 +5,7 @@
 
 3. Nhấn vào biểu tượng **+** ở giữa trái
 
-    - Thêm đường dẫn 3D: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_3D**), trỏ đường dẫn đến thư mục 3D step và bỏ đường dẫn vào **PATH**
+    - Thêm đường dẫn 3D: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_3D**), trỏ đường dẫn đến thư mục 3D step và bỏ đường dẫn vào **PATH** (link tải thư viện 3D có thể tìm  tại [3D components](https://drive.google.com/drive/folders/1VmwAMi_eRROsyuiOxROkocCbqxLXIBUc))
     
     - Thêm đường dẫn SYMBOL: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_SYMBOL_DIR**), trỏ đường dẫn đến thư mục symbols và bỏ đường dẫn vào **PATH**
     
