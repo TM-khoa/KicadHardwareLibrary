@@ -1,33 +1,33 @@
-# __*Hướng dẫn thêm thư viện IoTVision vào KICAD*__
+# __*Hướng dẫn thêm thư viện vào KICAD*__
 1. Vào KICAD
 
 2. Chọn **Preferences -> Configure Paths**
 
 3. Nhấn vào biểu tượng **+** ở giữa trái
 
-    - Thêm đường dẫn 3D: Gán alias (tên thay thế) vào mục **Name** (ví dụ **IOTVISION_3D**), trỏ đường dẫn đến thư mục 3D step và bỏ đường dẫn vào **PATH**
+    - Thêm đường dẫn 3D: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_3D**), trỏ đường dẫn đến thư mục 3D step và bỏ đường dẫn vào **PATH**
     
-    - Thêm đường dẫn SYMBOL: Gán alias (tên thay thế) vào mục **Name** (ví dụ **IOTVISION_SYMBOL_DIR**), trỏ đường dẫn đến thư mục symbols và bỏ đường dẫn vào **PATH**
+    - Thêm đường dẫn SYMBOL: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_SYMBOL_DIR**), trỏ đường dẫn đến thư mục symbols và bỏ đường dẫn vào **PATH**
     
-    - Thêm đường dẫn FOOTPRINT: Gán alias (tên thay thế) vào mục **Name** (ví dụ **IOTVISION_FOOTPRINT_DIR**), trỏ đường dẫn đến thư mục footprints và bỏ đường dẫn vào **PATH**
+    - Thêm đường dẫn FOOTPRINT: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_FOOTPRINT_DIR**), trỏ đường dẫn đến thư mục footprints và bỏ đường dẫn vào **PATH**
     
 
 4. Nhấn OK
 
 5. Chọn **Preferences -> Manage Symbol Libraries  -> Global Libraries**, nhấn vào biểu tượng **+** ở dưới trái
 
-    - Nickname: **IVS_SYMBOLS**
+    - Nickname: **MY_SYMBOLS**
     
-    - Library Path: **${IOTVISION_SYMBOL_DIR}/Symbols.kicad_sym**
+    - Library Path: **${MY_LIBRARY_SYMBOL_DIR}/Symbols.kicad_sym**
     
     - Nhấn OK
 **Lưu ý**: Nếu mở **PCB Editor** hoặc **Footprint Editor** sẽ không thấy **Manage Symbol Libraries**
 
 6. Chọn **Preferences -> Manage Footprint Libraries -> Global Libraries**, nhấn vào biểu tượng **+** ở dưới trái
 
-    - Nickname: **IVS_FOOTPRINTS** __*(BẮT BUỘC)*__
+    - Nickname: **MY_FOOTPRINTS** __*(BẮT BUỘC để liên kết với thư viện symbol)*__
     
-    - Library Path: **${IOTVISION_FOOTPRINT_DIR}/IVSFootprint.pretty**
+    - Library Path: **${MY_LIBRARY_FOOTPRINT_DIR}/Footprint.pretty**
     
     - Nhấn OK
 **Lưu ý**: Nếu mở **Schematic Editor** hoặc **Symbol Editor** sẽ không thấy **Manage Footprint Libraries**
