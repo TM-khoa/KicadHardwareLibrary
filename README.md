@@ -1,16 +1,26 @@
-# __*Hướng dẫn thêm thư viện vào KICAD*__
-1. Vào KICAD
 
-2. Chọn **Preferences -> Configure Paths**
+# Link thư viện [3D](https://drive.google.com/drive/folders/1VmwAMi_eRROsyuiOxROkocCbqxLXIBUc)
 
-3. Nhấn vào biểu tượng **+** ở giữa trái
+# __*Hướng dẫn thêm thư viện linh kiện vào KICAD*__
 
-    - Thêm đường dẫn 3D: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_3D**), trỏ đường dẫn đến thư mục 3D step và bỏ đường dẫn vào **PATH** (link tải thư viện 3D có thể tìm  tại [3D components](https://drive.google.com/drive/folders/1VmwAMi_eRROsyuiOxROkocCbqxLXIBUc))
+
+2. Vào KICAD
+
+3. Chọn **Preferences -> Configure Paths**
+
+4. Nhấn vào biểu tượng **+** ở giữa trái
+
+    - Thêm đường dẫn 3D: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_3D**), trỏ đường dẫn đến thư mục 3D step và chọn đường dẫn vào đưa vào mục **PATH**
     
-    - Thêm đường dẫn SYMBOL: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_SYMBOL_DIR**), trỏ đường dẫn đến thư mục symbols và bỏ đường dẫn vào **PATH**
+    - Thêm đường dẫn SYMBOL: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_SYMBOL_DIR**), trỏ đường dẫn đến thư mục symbols và chọn đường dẫn vào đưa vào mục **PATH**
     
-    - Thêm đường dẫn FOOTPRINT: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_FOOTPRINT_DIR**), trỏ đường dẫn đến thư mục footprints và bỏ đường dẫn vào **PATH**
+    - Thêm đường dẫn FOOTPRINT: Gán alias (tên thay thế) vào mục **Name** (ví dụ **MY_LIBRARY_FOOTPRINT_DIR**), trỏ đường dẫn đến thư mục footprints và chọn đường dẫn vào đưa vào mục **PATH**
     
+    **Lưu ý hiện tại bắt buộc đặt tên alias của symbol, footprint và 3D như sau thì mới có thể sử dụng được:**
+
+        - Symbol: SPIRITBOI_SYMBOL_DIR
+        - Footprint: SPIRITBOI_FOOTPRINT_DIR
+        - 3D: SPIRITBOI_3D
 
 4. Nhấn OK
 
